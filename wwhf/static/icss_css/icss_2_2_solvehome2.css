@@ -1,0 +1,233 @@
+@charset "utf-8";
+@import url("icss_2_3_solve.css")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/icss_css/icss_2_3_solve.css*/;
+/* CSS Document */
+.icss_2_2_S1home2_box2 {
+	width:517px;
+	float:left;
+}
+.icss_2_2_S1home2_box1 {
+	width:240px;
+	float:left;
+	padding-top:24px;
+}
+.icss_2_0_S1home2_left1 {
+	width:100%;
+	background:#727171;
+	height:20px;
+	padding-top:8px;
+}
+h3.mue {
+	width:auto;
+	/*padding-left:20px; */
+	font-size:12px;
+	font-weight:bold;
+	height:28px;
+	line-height:28px;
+}
+h3.cur {
+	/*padding-left:10px; */
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	background-color:#7a7a7a
+}
+h3 a {
+	padding-left:20px;
+	color:#000;
+	display:block;
+	font-size:14px;
+}
+h3.cur a {
+	color:#fff;
+}
+h3.cur>a:hover {
+	background-color:#e7e7e7;
+	color:#000;
+}
+h3 a:hover{
+	background-color:#e7e7e7;
+}
+.icss_2_0_S1home2_left2 {
+	width:100%;
+	height:20px;
+	padding-top:8px;
+}
+.icss_2_0_S1home2_left3 {
+	width:95%;
+	height:20px;
+	padding-top:8px;
+}
+.menu li {
+	position:relative;
+}
+.menu li a {
+	margin:2px 0px;
+	height:24px;
+	line-height:28px;
+	color:#000;
+	display:block;
+	padding-left:10px;
+    font-family:Calibri, Arial, '宋体';
+}
+.menu>li>a {
+	padding-left:30px;
+  
+}
+.menu li.iner a {
+	background:url("../images/icss_2_2_S1home2/youjiantou.gif")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icss_2_2_S1home2/youjiantou.gif*/ no-repeat 220px center;
+}
+
+li.cur {
+	 
+	color:#fff;
+	background-color:#7a7a7a
+}
+li.cur>a {
+	color:#fff;
+	background:url("../images/icss_2_2_S1home2/youjiantou1.gif")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icss_2_2_S1home2/youjiantou1.gif*/ no-repeat 220px center !important;
+}
+li.cur>a:hover {
+	background-color:#e7e7e7 !important;
+	color:#000;
+	
+}
+
+.menu_next {
+	border:1px solid #ccc;
+	padding:3px;
+	display:none;
+	width:230px;
+	position:absolute;
+	left:240px;
+	top:0px;
+	z-index:1000;
+	background-color:#FFFFFF;
+}
+.menu li.iner .menu_next a,.menu li.iner .menu_next li.iner  .menu_next_sub a {
+	background-image:none;
+}
+.menu a:hover, .menu li.iner a:hover, .menu li.iner .menu_next a:hover {
+	background-color:#e7e7e7;
+}
+.menu_next a:hover, .menu_next li.iner a:hover, .menu_next li.iner .menu_next_sub a:hover,.menu li.iner .menu_next li.iner a:hover {
+	background-color:#e7e7e7;
+}
+.menu li.iner .menu_next li.iner a{background:url("../images/icss_2_2_S1home2/youjiantou.gif")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icss_2_2_S1home2/youjiantou.gif*/ no-repeat 175px center;}
+.menu_next_sub {
+	border:1px solid #ccc;
+	padding:3px;
+	display:none;
+	width:230px;
+	position:absolute;	 
+	left:188px;
+	top:0px;
+	z-index:1000;
+	background-color:#FFFFFF;
+}
+
+.icss_2_0_S1home2_left5 {
+	width:95%;
+	height:20px;
+	padding-top:8px;
+	background-image:url("../images/icss_2_2_S1home2/youjiantou.gif")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icss_2_2_S1home2/youjiantou.gif*/;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.icss_2_0_S1home2_left6 {
+	width:90%;
+	padding:3px;
+	background:#fff;
+	border-bottom:3px solid #ccc;
+	border-right:3px solid #ccc;
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+}
+.icss_2_0_S1home2_left4 {
+	width:100%;
+	height:20px;
+	padding-top:8px;
+}
+.icss_font_03 {
+	width:auto;
+	padding: 5px 0 5px 30px;
+	color:#000;
+	font-size:12px;
+}
+.icss_font_04 {
+	width:auto;
+	padding: 5px 0 5px 30px;
+	color:#000;
+	font-size:12px;
+	background-color:#eeeeee;
+}
+.icss_2_2_S1home2_span1 {
+	width:100%;
+	float:left;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:21px;
+	color:#898989;
+	padding:6px 0 10px 0;
+	border-bottom:3px #004ea2 solid;
+}
+.icss_text_liebiao_S1home2 {
+	width:45%;
+	float:left;
+	padding-bottom:10px;
+	padding-left:10px;
+	 
+	color:#3885c5;
+	background-image: url("../images/icss_2_0_PSG/dian.gif")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icss_2_0_PSG/dian.gif*/;
+	background-repeat: no-repeat;
+	background-position: left 6px;
+}
+
+.icss_text_liebiao_S1home1
+{
+	width:90%;
+	float:left;
+	padding-bottom:10px;
+	/* padding-left:10px; */
+	 
+	color:#3885c5;
+}
+.icss_text_liebiao_S1home11
+{
+	width:90%;
+	float:left;
+	padding-bottom:10px;
+	padding-left:10px;
+	height:200px;
+	color:#3885c5;
+}
+
+#wrap .icss_text_liebiao_S1home1 a{
+	  
+	 color:#3885c5;
+	 font-size:14px; font-weight:bold;
+	text-decoration: none;
+}
+
+.icss_text_liebiao_S1home2 a:link {
+	color: #3885c5;
+	text-decoration: none;
+}
+.icss_text_liebiao_S1home2 a:visited,.icss_text_liebiao_S1home1 a:visited {
+	text-decoration: none;
+	color: #3885c5;
+}
+.icss_text_liebiao_S1home2 a:hover,.icss_text_liebiao_S1home1 a:hover {
+ 	/* text-decoration: underline; */
+	color: #333;
+}
+.icss_text_liebiao_S1home2 a:active,.icss_text_liebiao_S1home1 a:active {
+	text-decoration: none;
+	color: #3885c5;
+}
+.icss_text_liebiao_S1home2_fenge {
+	width:100%;
+	height:15px;
+	border-bottom:1px #ccc solid;
+	float:left;
+	/* margin-bottom:15px; */
+}

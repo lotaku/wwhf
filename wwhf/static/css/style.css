@@ -1,0 +1,634 @@
+/*common start*/
+html{-webkit-text-size-adjust:none;-ms-text-size-adjust:none;}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,blockquote{margin:0;padding:0;}
+body{text-align:left;font:normal 12px/18px Calibri,Arial, "宋体";background-color:#fff;color:#333;}
+button,input,select,textarea{font:normal 12px/18px Calibri,Arial, "宋体";outline:none;margin:0;padding:0;color:#333;}
+input::-moz-focus-inner{border:none;padding:0;}
+select,input{vertical-align:middle; }
+button{cursor:pointer;border:none;padding:0;background:none;text-align:center;}
+fieldset,img{border:none;}
+textarea{resize:none;}
+a:focus,input:focus,textarea:focus{outline:none;}
+ol,ul{list-style:none;}
+em,strong{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;width:100%;}
+/*clear*/
+.cf:before,.cf:after{content:"";display:table;}
+.cf:after{clear:both}
+.cf{*zoom:1}
+/*float*/
+.left{float:left;}
+.right{float:right;}
+/*font weight*/
+.fb{font-weight:bold;}
+/*text align*/
+.align_l{text-align:left;}
+.align_r{text-align:right;}
+.align_c{text-align:center;}
+/*link*/
+a{color:#333;text-decoration:none;}
+a:visited{color:#333;}
+a:hover,a:active,a:focus{color:#666;}
+/*common end*/
+
+/*header start*/
+/*************** 头部导航 开始 ***************/
+.maintop{min-width:1002px;width:100%;height:22px;padding:0;}
+.top{width:980px;height:12px;margin:0 auto;padding:0;padding:8px 0 2px 0;clear:both;}
+.top_right{float:right;color:#727171;font-family:"宋体",arial;font-size:12px;line-height:12px;width:274px;}
+.top_right ul{padding:0px 0 0 0;}
+.top_right ul li{border-left:1px solid #727171;padding:0 8px 0 10px;line-height:12px;float:left;margin:0 4px 0 0;}
+/***************  头部导航 结束 ***************/
+/***************  语言导航 开始 ***************/
+.top_right ul li a{text-decoration:none;line-height:12px;color:#727171;}
+.top_right ul li.language{display:inline-block;float:left;border:none;line-height:12px;width:115px;z-index:410;}
+.top_right ul li.language a{border:1px solid #fff;display:block;padding:5px 15px 0 4px;height:18px;position:relative;top:-5px;z-index:800;}
+.top_right ul li.nav_narrow_up a{background:url("../images/icon/xiala1.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icon/xiala1.jpg*/ 98px 8px no-repeat;border:1px solid #d3d4d5;border-bottom:1px solid #fff;/*border:#d3d4d5 1px solid;-moz-box-shadow:1px 1px 3px #8d9499;-webkit-box-shadow:2px 2px 5px #8d9499;box-shadow:2px 2px 2px #8d9499;*/
+}
+li.nav_narrow_down a{background:url("../images/icon/xiala.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icon/xiala.jpg*/ 98px 8px no-repeat;}
+.liselected{border:#d3d4d5 1px solid;-moz-box-shadow:1px 1px 3px #8d9499;-webkit-box-shadow:2px 2px 5px #8d9499;box-shadow:2px 2px 5px #8d9499;}
+.ul_select_lan{position:absolute;top:-6px;background:#fff;border:#d3d4d5 1px solid;/*-moz-box-shadow:1px 1px 3px #8d9499;-webkit-box-shadow:2px 2px 5px #8d9499;box-shadow:2px 2px 5px #8d9499;*/
+display:none;z-index:400;left:-15px;}
+.ul_select_lan ul{display:list-item;float:none;}
+.ul_select_lan ul li{border:none;width:120px;display:list-item;float:none;line-height:26px;margin:2px;}
+.top_right ul .ul_select_lan ul li a{width:92px;display:list-item;float:none;padding:0;height:23px;border:none;line-height:12px;margin:2px auto;position:static;}
+.li_on_fouces{background-color:#eee;}
+/***************  语言导航 结束 ***************/
+#header{width:980px;margin:0 auto;height:60px;padding:2px 0 0 15px}
+.expo_logo{float:left;padding:0 0 0 5px;}
+/************   主菜单菜单效果 开始 ***************/
+#nav{min-width:1002px;width:100%;background:#004ea2;height:40px;margin:0;padding:0;}
+.mainnav{width:980px;margin:0 auto;padding:0;height:40px;position:relative;}
+.mainnav form{width:150px;height:20px;background:#fff;position:absolute;left:813px;top:10px;padding:0 0 0 10px;border:none;}
+.mainnav form input.textbox{width:130px;height:20px;border:0;_border:1px solid #fff;_border-top:none;_border-bottom:none;font:bold 12px/20px "宋体";color:#85adcd;font-weight:normal;padding:0px;float:left;display:block;outline:none;}
+.mainnav form input.go{display:block;background:url("../images/icon/top_search.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icon/top_search.jpg*/ left center no-repeat;height:20px;width:20px;cursor:pointer;float:left;border:none;text-indent:-9999px;*text-indent:-9999px;}
+.mainnav ul{display:block;height:40px;padding:0;margin:0;}
+.mainnav ul li{display:block;float:left;width:86px;text-align:center;margin-right:60px;cursor:pointer;}
+#nav .mainnav ul li .onselected{color:#004ea2 !important;background:url("images/huadong_bg.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/css/images/huadong_bg.jpg*/ repeat-x;}
+.mainnav ul li a{display:block;font-size:14px;font-family:"微软雅黑","宋体";font-weight:bold;color:#FFFFFF;line-height:40px;}
+
+/************   主菜单菜单效果 结束 ***************/
+/************   子菜单菜单效果 开始 ***************/
+.submenu{margin:0px;padding:0px;position:relative;	 z-index: 200;display:none;}
+.submenu h1{font-size: 16px;color: #004ea2;margin: 10px 0px;padding-left:20px;}
+.submenu h1 a{font-family: "微软雅黑";display:inline-block;font-size: 16px;color: #004ea2;}
+.submenu ul{list-style: none;}
+.submenu ul li{list-style: none;}
+.submenu ul li a {color:#727171;}
+.submenu ul li a:hover {color:#3885c5;}
+
+div.submenubg{position:absolute;float:left;background-color: #fff;background-image: url("images/tanchu_bg.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/css/images/tanchu_bg.jpg*/;background-repeat: repeat-x;background-position: bottom;padding-top: 15px;padding-bottom: 25px;}
+.submenuStyle1{float: left;font-size: 12px;}
+.clear{ clear:both; float:left; height:0; line-height:0;}
+.box_1{float: left;font-size: 12px;padding: 0px 18px;line-height: 24px;border-right: 1px solid #dddddd;}
+.box_2{float: left;font-size: 12px;line-height: 24px;padding:0px 20px;}
+.submenuStyle2{float: left;font-size: 12px;}
+.submenuBottom{height: 28px;width: 100%;background-color: #06F;}
+/************   子菜单菜单效果 结束 ***************/
+/*header end*/
+
+/*content start*/
+/*picFocus start*/
+.pic_wrapper{width:100%;height:700px;overflow:hidden;position:relative;z-index:9;min-width:1002px;}
+.pic_focus{width:100%;height:700px;overflow:hidden;}
+.pic_focus div{ position:absolute; left:0;top:0; width:1960px;}
+.pic_1,.pic_2,.pic_3,.pic_4,.pic_5{ width:100%;display:block;height:700px; background-position:center top; background-repeat:no-repeat;}
+.pic_1{ background-image:url("../images/upload/pic_8.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/upload/pic_8.jpg*/;}
+.pic_2{ background-image:url("../images/upload/pic_7.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/upload/pic_7.jpg*/;}
+.pic_3{ background-image:url("../images/upload/pic_5.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/upload/pic_5.jpg*/;}
+.pic_4{ background-image:url("../images/upload/pic_6.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/upload/pic_6.jpg*/;}
+.pic_5{ background-image:url("../images/upload/pic_2.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/upload/pic_2.jpg*/;}
+.pic_1 a,.pic_2 a,.pic_3 a,.pic_4 a,.pic_5 a{display:block;width:109px;height:41px;line-height:41px;text-indent:-9999px;position:absolute;z-index:10;}
+.pic_2 a{top:360px;left:0;}
+.pic_3 a{top:280px;left:0;}
+.pic_4 a{top:240px;left:0;}
+.pic_5 a{top:320px;left:0;}
+.pic_1 a{top:320px;left:0;}
+
+/*0618增加焦点图按钮*/
+.pic_bar{position:absolute;bottom:263px;left:50%;width:130px;margin-left:-65px;z-index:11;}
+.pic_bar a{float:left;width:11px;height:11px;background:#c0c0c0;margin-right:15px; text-indent:-9999px;}
+.pic_bar a.activeSlide{background:#333;}
+
+/*picFocus end*/
+
+/*bottom start*/
+.footer_wrapper1{min-width:1002px;height:237px; z-index:11;position:relative;}
+.footer{width: 1002px;margin: 0 auto; position:relative;}
+.footer dl{ float: left;width: 20%;padding-top:33px;}
+.footer dt{font-size:14px;font-family:"Microsoft Yahei";padding-bottom:10px;}
+.footer dd{float:left; width:50%;}
+.footer dd a{color:#666;line-height:20px;}
+.footer dd a:hover{color:#999;}
+.menu{position:absolute; width:100%; height:222px; left:0;top:-242px;}
+.menu h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menu h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei";}
+.menu h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menu h2 div span{ display:block;}
+.menu h2 div a{color:#fff;}
+.menu ul{ overflow:hidden; margin-left:-33px;}
+.menu ul li{ float:left;background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat;width:282px; height:152px; padding:15px 15px 0; margin-left:33px;color:#fff;}
+.menu ul li span{float:right;width:81px;height:110px; padding:15px 0 0 20px;overflow:hidden; text-align:right;}
+.menu ul li span.m_img{ padding-top:40px;}
+.menu ul li em{display:block;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menu ul li em a{color:#fff;}
+.menu ul li p{color:#ccc;overflow:hidden;clear:left;}
+.menu ul li p.first{ padding-bottom:8px;}
+.menu ul li p a{color:#ccc;}
+.menu ul li p a:hover{color:#aaa;}
+
+/*bottom end*/
+
+/*content end*/
+
+/*footer start*/
+#footer{margin-top:15px;background-color:#eee; min-width:1002px;width:100%;height:44px;padding:0;clear:both;}
+.footer_main{margin:0px auto;height:44px;line-height:44px;width:980px;color:#333;font-family:"宋体";padding-left:20px;}
+.footer_main a:link{text-decoration:none;color:#333;}
+.footer_main a:visited{text-decoration:none;color:#333;}
+.footer_main a:hover{text-decoration:none;color:#3885c5;}
+.footer_main a:active{text-decoration:none;color:#333;}
+/*footer end*/
+
+.footer_wrapper2{min-width:1002px;height:1437px; z-index:11;position:relative;}
+
+/*jv01 start*/
+.menu01{position:absolute; width:100%; height:640px; left:0; top:0px;}
+.menu01 ul{ overflow:hidden; margin-left:-33px;}
+.menu01 ul li{ float:left; width:980px; height:640px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menu01 ul li span{float:right; width:81px; height:640px; padding:15px 0 0 20px;overflow:hidden; text-align:right;}
+.menu01 ul li span.m_img{ padding-top:40px;}
+.menu01 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menu01 ul li em a{color:#33cc99;}
+.menu01 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;}
+.menu01 ul li p.first{ padding-bottom:8px;}
+.menu01 ul li p img{ padding-left:40px; }
+.menu01 ul li p a{color:#ccc;}
+/*jv01 end*/
+
+/*jv1 start*/
+.menu1{position:absolute; width:100%; height:222px; left:0; top:670px;}
+.menu1 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menu1 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menu1 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menu1 h2 div span{ display:block;}
+.menu1 h2 div a{color:#fff;}
+.menu1 ul{ overflow:hidden; margin-left:-33px;}
+.menu1 ul li{ float:left; width:460px; height:152px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menu1 ul li span{float:right; width:81px; height:110px; padding:15px 0 0 20px;overflow:hidden; text-align:right;}
+.menu1 ul li span.m_img{ padding-top:40px;}
+.menu1 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menu1 ul li em a{color:#33cc99;}
+.menu1 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;}
+.menu1 ul li p.first{ padding-bottom:8px;}
+.menu1 ul li p img{ padding-left:40px; }
+.menu1 ul li p a{color:#ccc;}
+/*jv1 end*/
+
+/*jv2 start*/
+.menu0{position:absolute; width:100%; height:222px; left:0; top:885px; margin-left:20px; }
+.menu0 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menu0 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menu0 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menu0 h2 div span{ display:block;}
+.menu0 h2 div a{color:#fff;}
+.menu0 ul{ overflow:hidden; margin-left:-33px;}
+.menu0 ul li{ float:left; width:450px; height:192px; padding:15px 15px 0; margin-left:20px; color:#fff;overflow:hidden;border:1px solid #33cc99;}
+.menu0 ul li span{float:right; width:330px; height:160px; padding:15px 0 0 0px;overflow:hidden; text-align:right;}
+.menu0 ul li span.m_img{ padding-top:18px;}
+.menu0 ul li em{display:block;padding-left:5px;padding-bottom:18px;font-size:16px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menu0 ul li em a{color:#333; }
+.menu0 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;padding-left:32px;}
+.menu0 ul li p.first{ padding-bottom:8px;}
+.menu0 ul li p img{ padding-left:40px; }
+.menu0 ul li p a{color:#666;}
+.menu0 ul li p a:link {color:#666;}		
+.menu0 ul li p a:visited {color:#666;}	
+.menu0 ul li p a:hover {color:#33cc99;}
+/*jv2 end*/
+
+/*jv3 start*/
+.menu2{position:absolute; width:100%; height:262px; left:0; top:1122px;}
+.menu2 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menu2 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menu2 h2 div{ margin-left:60px; font-size:14px; overflow:hidden; height:35px; font-weight:normal;}
+.menu2 h2 div span{ display:block;}
+.menu2 h2 div a{color:#fff;}
+.menu2 ul{ overflow:hidden; margin-left:-33px;font-size:14px;font-family:"Microsoft Yahei";}
+.menu2 ul li{ float:left; width:460px; height:192px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menu2 ul li span{float:right; width:81px; height:150px; padding:15px 0 0 20px; overflow:hidden; text-align:right;}
+.menu2 ul li span.m_img{ padding-top:40px;}
+.menu2 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menu2 ul li em a{color:#33cc99;}
+.menu2 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;padding-left:55px;}
+.menu2 ul li p.first{ padding-bottom:8px;}
+.menu2 ul li p img{ padding-left:40px; }
+.menu2 ul li p a{color:#666;}
+.menu2 ul li p a:link {color:#666;}		
+.menu2 ul li p a:visited {color:#666;}	
+.menu2 ul li p a:hover {color:#33cc99;}
+
+/*jv3 end*/
+
+/*jv4 start*/
+.menu3{position:absolute; width:100%; height:100px; left:0; top:1362px; margin-left:20px; }
+.menu3 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menu3 h2 div span{ display:block;}
+.menu3 h2 div a{color:#fff;}
+.menu3 ul{ overflow:hidden; margin-left:-33px;}
+.menu3 ul li{background-color: #1abc9c; float:left; width:952px; height:60px; padding:12px 15px 0; margin-left:20px;overflow:hidden;}
+.menu3 ul li span{height:50px; padding:10px 0 0 10px;overflow:hidden; text-align:right;}
+.menu3 ul li span.m_img{float:left; padding-top:8px;width:180px; }
+.menu3 ul li span.m_img2{float:left; padding-top:0px;width:55px; }
+.menu3 ul li em{float:left;padding-left:80px;padding-top:8px;font-size:24px;font-family:"Microsoft Yahei";}
+.menu3 ul li em a{color:#fff; }
+/*jv4 end*/
+
+
+/*jfgc1*/
+.footer_wrapperj1{min-width:1002px;height:3495px; z-index:11;position:relative;}
+
+/*jvgc1_1 start*/
+.menuj1_1{position:absolute; width:100%; height:3242px; left:0; top:10px;}
+.menuj1_1 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menuj1_1 h2 em{ float:left;font-size:18px;font-family:"Microsoft Yahei"; }
+.menuj1_1 h2 div{ margin-left:30px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj1_1 h2 div span{ display:block;}
+.menuj1_1 h2 div a{color:#fff;}
+.menuj1_1 ul{ overflow:hidden; margin-left:-33px;}
+.menuj1_1 ul li{ float:left; width:93%; height:3242px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menuj1_1 ul li span{float:right; width:81px; height:110px; padding:15px 0 0 20px;overflow:hidden; text-align:right;}
+.menuj1_1 ul li span.m_img{ padding-top:40px;}
+.menuj1_1 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menuj1_1 ul li em a{color:#33cc99;}
+.menuj1_1 ul li p{color:#666;overflow:hidden; margin-left:30px;line-height:22px;text-align:justify;font-size:14px;font-family:"Microsoft Yahei";}
+.menuj1_1 ul li p.first{ padding-bottom:8px;}
+.menuj1_1 ul li p img{ padding-left:40px; }
+.menuj1_1 ul li p a{color:#ccc;}
+/*jvgc1_1 end*/
+
+/*jvgc1_2 start*/
+.menuj1_2{position:absolute; width:93%; height:130px; margin-left:30px; left:0; top:3252px; border-top:1px solid #33cc99;}
+.menuj1_2 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menuj1_2 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menuj1_2 h2 div{ margin-left:60px; font-size:14px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj1_2 h2 div span{ display:block;}
+.menuj1_2 h2 div a{color:#fff;}
+.menuj1_2 ul{ overflow:hidden; margin-left:-33px;font-size:14px;font-family:"Microsoft Yahei";}
+.menuj1_2 ul li{ float:left; width:410px; height:192px; padding:30px 15px 0; margin-left:20px; color:#fff;}
+.menuj1_2 ul li span{float:right; width:81px; height:150px; padding:15px 0 0 20px; overflow:hidden; text-align:right;}
+.menuj1_2 ul li span.m_img{ padding-top:40px;}
+.menuj1_2 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menuj1_2 ul li em a{color:#33cc99;}
+.menuj1_2 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;padding-left:55px;}
+.menuj1_2 ul li p.first{ padding-bottom:8px;}
+.menuj1_2 ul li p img{ padding-left:40px; }
+.menuj1_2 ul li p a{color:#666;}
+.menuj1_2 ul li p a:link {color:#666;}		
+.menuj1_2 ul li p a:visited {color:#666;}	
+.menuj1_2 ul li p a:hover {color:#33cc99;}
+
+/*jvgc1_2 end*/
+
+/*jvgc1_3 start*/
+.menuj1_3{position:absolute; width:100%; height:100px; left:0; top:3402px; margin-left:20px; }
+.menuj1_3 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj1_3 h2 div span{ display:block;}
+.menuj1_3 h2 div a{color:#fff;}
+.menuj1_3 ul{ overflow:hidden; margin-left:-33px;}
+.menuj1_3 ul li{background-color: #1abc9c; float:left; width:952px; height:60px; padding:12px 15px 0; margin-left:20px;overflow:hidden;}
+.menuj1_3 ul li span{height:50px; padding:10px 0 0 10px;overflow:hidden; text-align:right;}
+.menuj1_3 ul li span.m_img{float:left; padding-top:8px;width:180px; }
+.menuj1_3 ul li span.m_img2{float:left; padding-top:0px;width:55px; }
+.menuj1_3 ul li em{float:left;padding-left:80px;padding-top:8px;font-size:24px;font-family:"Microsoft Yahei";}
+.menuj1_3 ul li em a{color:#fff; }
+/*jvgc1_3 end*/
+
+/*jvgc1 end*/
+
+/*jfgc2*/
+.footer_wrapperj2{min-width:1002px;height:4455px; z-index:11;position:relative;}
+
+/*jvgc2_1 start*/
+.menuj2_1{position:absolute; width:100%; height:4242px; left:0; top:10px;}
+.menuj2_1 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menuj2_1 h2 em{ float:left;font-size:18px;font-family:"Microsoft Yahei"; }
+.menuj2_1 h2 div{ margin-left:30px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj2_1 h2 div span{ display:block;}
+.menuj2_1 h2 div a{color:#fff;}
+.menuj2_1 ul{ overflow:hidden; margin-left:-33px;}
+.menuj2_1 ul li{ float:left; width:93%; height:4242px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menuj2_1 ul li span{float:right; width:81px; height:110px; padding:15px 0 0 20px;overflow:hidden; text-align:right;}
+.menuj2_1 ul li span.m_img{ padding-top:40px;}
+.menuj2_1 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menuj2_1 ul li em a{color:#33cc99;}
+.menuj2_1 ul li p{color:#666;overflow:hidden; margin-left:30px;line-height:22px;text-align:justify;font-size:14px;font-family:"Microsoft Yahei";}
+.menuj2_1 ul li p.first{ padding-bottom:8px;}
+.menuj2_1 ul li p img{ padding-left:40px; }
+.menuj2_1 ul li p a{color:#ccc;}
+/*jvgc2_1 end*/
+
+/*jvgc2_2 start*/
+.menuj2_2{position:absolute; width:93%; height:130px; margin-left:30px; left:0; top:4212px; border-top:1px solid #33cc99;}
+.menuj2_2 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menuj2_2 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menuj2_2 h2 div{ margin-left:60px; font-size:14px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj2_2 h2 div span{ display:block;}
+.menuj2_2 h2 div a{color:#fff;}
+.menuj2_2 ul{ overflow:hidden; margin-left:-33px;font-size:14px;font-family:"Microsoft Yahei";}
+.menuj2_2 ul li{ float:left; width:410px; height:192px; padding:30px 15px 0; margin-left:20px; color:#fff;}
+.menuj2_2 ul li span{float:right; width:81px; height:150px; padding:15px 0 0 20px; overflow:hidden; text-align:right;}
+.menuj2_2 ul li span.m_img{ padding-top:40px;}
+.menuj2_2 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menuj2_2 ul li em a{color:#33cc99;}
+.menuj2_2 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;padding-left:55px;}
+.menuj2_2 ul li p.first{ padding-bottom:8px;}
+.menuj2_2 ul li p img{ padding-left:40px; }
+.menuj2_2 ul li p a{color:#666;}
+.menuj2_2 ul li p a:link {color:#666;}		
+.menuj2_2 ul li p a:visited {color:#666;}	
+.menuj2_2 ul li p a:hover {color:#33cc99;}
+
+/*jvgc2_2 end*/
+
+/*jvgc2_3 start*/
+.menuj2_3{position:absolute; width:100%; height:100px; left:0; top:4362px; margin-left:20px; }
+.menuj2_3 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj2_3 h2 div span{ display:block;}
+.menuj2_3 h2 div a{color:#fff;}
+.menuj2_3 ul{ overflow:hidden; margin-left:-33px;}
+.menuj2_3 ul li{background-color: #1abc9c; float:left; width:952px; height:60px; padding:12px 15px 0; margin-left:20px;overflow:hidden;}
+.menuj2_3 ul li span{height:50px; padding:10px 0 0 10px;overflow:hidden; text-align:right;}
+.menuj2_3 ul li span.m_img{float:left; padding-top:8px;width:180px; }
+.menuj2_3 ul li span.m_img2{float:left; padding-top:0px;width:55px; }
+.menuj2_3 ul li em{float:left;padding-left:80px;padding-top:8px;font-size:24px;font-family:"Microsoft Yahei";}
+.menuj2_3 ul li em a{color:#fff; }
+/*jvgc2_3 end*/
+
+/*jvgc2 end*/
+
+/*jfgc3*/
+.footer_wrapperj3{min-width:1002px;height:4465px; z-index:11;position:relative;}
+
+/*jvgc3_1 start*/
+.menuj3_1{position:absolute; width:100%; height:4242px; left:0; top:10px;}
+.menuj3_1 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menuj3_1 h2 em{ float:left;font-size:18px;font-family:"Microsoft Yahei"; }
+.menuj3_1 h2 div{ margin-left:30px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj3_1 h2 div span{ display:block;}
+.menuj3_1 h2 div a{color:#fff;}
+.menuj3_1 ul{ overflow:hidden; margin-left:-33px;}
+.menuj3_1 ul li{ float:left; width:93%; height:4242px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menuj3_1 ul li span{float:right; width:81px; height:110px; padding:15px 0 0 20px;overflow:hidden; text-align:right;}
+.menuj3_1 ul li span.m_img{ padding-top:40px;}
+.menuj3_1 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menuj3_1 ul li em a{color:#33cc99;}
+.menuj3_1 ul li p{color:#666;overflow:hidden; margin-left:30px;line-height:22px;text-align:justify;font-size:14px;font-family:"Microsoft Yahei";}
+.menuj3_1 ul li p.first{ padding-bottom:8px;}
+.menuj3_1 ul li p img{ padding-left:40px; }
+.menuj3_1 ul li p a{color:#ccc;}
+/*jvgc3_1 end*/
+
+/*jvgc3_2 start*/
+.menuj3_2{position:absolute; width:93%; height:130px; margin-left:30px; left:0; top:4222px; border-top:1px solid #33cc99;}
+.menuj3_2 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menuj3_2 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menuj3_2 h2 div{ margin-left:60px; font-size:14px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj3_2 h2 div span{ display:block;}
+.menuj3_2 h2 div a{color:#fff;}
+.menuj3_2 ul{ overflow:hidden; margin-left:-33px;font-size:14px;font-family:"Microsoft Yahei";}
+.menuj3_2 ul li{ float:left; width:410px; height:192px; padding:30px 15px 0; margin-left:20px; color:#fff;}
+.menuj3_2 ul li span{float:right; width:81px; height:150px; padding:15px 0 0 20px; overflow:hidden; text-align:right;}
+.menuj3_2 ul li span.m_img{ padding-top:40px;}
+.menuj3_2 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menuj3_2 ul li em a{color:#33cc99;}
+.menuj3_2 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;padding-left:55px;}
+.menuj3_2 ul li p.first{ padding-bottom:8px;}
+.menuj3_2 ul li p img{ padding-left:40px; }
+.menuj3_2 ul li p a{color:#666;}
+.menuj3_2 ul li p a:link {color:#666;}		
+.menuj3_2 ul li p a:visited {color:#666;}	
+.menuj3_2 ul li p a:hover {color:#33cc99;}
+
+/*jvgc3_2 end*/
+
+/*jvgc3_3 start*/
+.menuj3_3{position:absolute; width:100%; height:100px; left:0; top:4372px; margin-left:20px; }
+.menuj3_3 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj3_3 h2 div span{ display:block;}
+.menuj3_3 h2 div a{color:#fff;}
+.menuj3_3 ul{ overflow:hidden; margin-left:-33px;}
+.menuj3_3 ul li{background-color: #1abc9c; float:left; width:952px; height:60px; padding:12px 15px 0; margin-left:20px;overflow:hidden;}
+.menuj3_3 ul li span{height:50px; padding:10px 0 0 10px;overflow:hidden; text-align:right;}
+.menuj3_3 ul li span.m_img{float:left; padding-top:8px;width:180px; }
+.menuj3_3 ul li span.m_img2{float:left; padding-top:0px;width:55px; }
+.menuj3_3 ul li em{float:left;padding-left:80px;padding-top:8px;font-size:24px;font-family:"Microsoft Yahei";}
+.menuj3_3 ul li em a{color:#fff; }
+/*jvgc3_3 end*/
+
+/*jvgc3 end*/
+
+/*jfgc4*/
+.footer_wrapperj4{min-width:1002px;height:3025px; z-index:11;position:relative;}
+
+/*jvgc4_1 start*/
+.menuj4_1{position:absolute; width:100%; height:2842px; left:0; top:10px;}
+.menuj4_1 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menuj4_1 h2 em{ float:left;font-size:18px;font-family:"Microsoft Yahei"; }
+.menuj4_1 h2 div{ margin-left:30px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj4_1 h2 div span{ display:block;}
+.menuj4_1 h2 div a{color:#fff;}
+.menuj4_1 ul{ overflow:hidden; margin-left:-33px;}
+.menuj4_1 ul li{ float:left; width:93%; height:2842px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menuj4_1 ul li span{float:right; width:81px; height:110px; padding:15px 0 0 20px;overflow:hidden; text-align:right;}
+.menuj4_1 ul li span.m_img{ padding-top:40px;}
+.menuj4_1 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menuj4_1 ul li em a{color:#33cc99;}
+.menuj4_1 ul li p{color:#666;overflow:hidden; margin-left:30px;line-height:22px;text-align:justify;font-size:14px;font-family:"Microsoft Yahei";}
+.menuj4_1 ul li p.first{ padding-bottom:8px;}
+.menuj4_1 ul li p img{ padding-left:40px; }
+.menuj4_1 ul li p a{color:#ccc;}
+/*jvgc4_1 end*/
+
+/*jvgc4_2 start*/
+.menuj4_2{position:absolute; width:93%; height:130px; margin-left:30px; left:0; top:2782px; border-top:1px solid #33cc99;}
+.menuj4_2 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menuj4_2 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menuj4_2 h2 div{ margin-left:60px; font-size:14px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj4_2 h2 div span{ display:block;}
+.menuj4_2 h2 div a{color:#fff;}
+.menuj4_2 ul{ overflow:hidden; margin-left:-33px;font-size:14px;font-family:"Microsoft Yahei";}
+.menuj4_2 ul li{ float:left; width:410px; height:192px; padding:30px 15px 0; margin-left:20px; color:#fff;}
+.menuj4_2 ul li span{float:right; width:81px; height:150px; padding:15px 0 0 20px; overflow:hidden; text-align:right;}
+.menuj4_2 ul li span.m_img{ padding-top:40px;}
+.menuj4_2 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menuj4_2 ul li em a{color:#33cc99;}
+.menuj4_2 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;padding-left:55px;}
+.menuj4_2 ul li p.first{ padding-bottom:8px;}
+.menuj4_2 ul li p img{ padding-left:40px; }
+.menuj4_2 ul li p a{color:#666;}
+.menuj4_2 ul li p a:link {color:#666;}		
+.menuj4_2 ul li p a:visited {color:#666;}	
+.menuj4_2 ul li p a:hover {color:#33cc99;}
+
+/*jvgc4_2 end*/
+
+/*jvgc4_3 start*/
+.menuj4_3{position:absolute; width:100%; height:100px; left:0; top:2932px; margin-left:20px; }
+.menuj4_3 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menuj4_3 h2 div span{ display:block;}
+.menuj4_3 h2 div a{color:#fff;}
+.menuj4_3 ul{ overflow:hidden; margin-left:-33px;}
+.menuj4_3 ul li{background-color: #1abc9c; float:left; width:952px; height:60px; padding:12px 15px 0; margin-left:20px;overflow:hidden;}
+.menuj4_3 ul li span{height:50px; padding:10px 0 0 10px;overflow:hidden; text-align:right;}
+.menuj4_3 ul li span.m_img{float:left; padding-top:8px;width:180px; }
+.menuj4_3 ul li span.m_img2{float:left; padding-top:0px;width:55px; }
+.menuj4_3 ul li em{float:left;padding-left:80px;padding-top:8px;font-size:24px;font-family:"Microsoft Yahei";}
+.menuj4_3 ul li em a{color:#fff; }
+/*jvgc4_3 end*/
+
+/*jvgc4 end*/
+
+
+.footer_wrapper3{min-width:1002px;height:625px; z-index:11;position:relative;}
+
+/*cloud1 start*/
+.menu4{position:absolute; width:100%; height:222px; left:0; top:20px;}
+.menu4 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menu4 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menu4 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menu4 h2 div span{ display:block;}
+.menu4 h2 div a{color:#fff;}
+.menu4 ul{ overflow:hidden; margin-left:-33px;}
+.menu4 ul li{ float:left; width:460px; height:182px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menu4 ul li span{float:right; width:81px; height:110px; padding:15px 0 0 20px;overflow:hidden; text-align:right;}
+.menu4 ul li span.m_img{ padding-top:40px;}
+.menu4 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menu4 ul li em a{color:#004ea1;}
+.menu4 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;}
+.menu4 ul li p.first{ padding-bottom:8px;}
+.menu4 ul li p img{ padding-left:40px; }
+.menu4 ul li p a{color:#ccc;}
+/*cloud1 end*/ 
+
+/*cloud2 start*/
+.menu5{position:absolute; width:100%; height:342px; left:0; top:230px;}
+.menu5 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menu5 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menu5 h2 div{ margin-left:60px; font-size:14px; overflow:hidden; height:35px; font-weight:normal;}
+.menu5 h2 div span{ display:block;}
+.menu5 h2 div a{color:#fff;}
+.menu5 ul{ overflow:hidden; margin-left:-33px;font-size:14px;font-family:"Microsoft Yahei";}
+.menu5 ul li{ float:left; width:460px; height:262px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menu5 ul li span{float:right; width:81px; height:150px; padding:15px 0 0 20px; overflow:hidden; text-align:right;}
+.menu5 ul li span.m_img{ padding-top:40px;}
+.menu5 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menu5 ul li em a{color:#004ea1;}
+.menu5 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;padding-left:55px;}
+.menu5 ul li p.first{ padding-bottom:8px;}
+.menu5 ul li p img{ padding-left:40px; }
+.menu5 ul li p a{color:#666;}
+.menu5 ul li p a:link {color:#666;}		
+.menu5 ul li p a:visited {color:#666;}	
+.menu5 ul li p a:hover {color:#004ea1;}
+
+/*cloud2 end*/
+
+/*cloud3 start*/
+.menu6{position:absolute; width:100%; height:100px; left:0; top:540px; margin-left:20px; }
+.menu6 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menu6 h2 div span{ display:block;}
+.menu6 h2 div a{color:#fff;}
+.menu6 ul{ overflow:hidden; margin-left:-33px;}
+.menu6 ul li{background-color: #004ea1; float:left; width:952px; height:60px; padding:12px 15px 0; margin-left:20px;overflow:hidden;}
+.menu6 ul li span{height:50px; padding:10px 0 0 10px;overflow:hidden; text-align:right;}
+.menu6 ul li span.m_img{float:left; padding-top:8px;width:180px; }
+.menu6 ul li span.m_img2{float:left; padding-top:0px;width:55px; }
+.menu6 ul li em{float:left;padding-left:80px;padding-top:8px;font-size:24px;font-family:"Microsoft Yahei";}
+.menu6 ul li em a{color:#fff; }
+
+/*cloud3 end*/
+
+
+.footer_wrapper4{min-width:1002px;height:1300px; z-index:11;position:relative;background:url("../images/citybg.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/citybg.jpg*/ 0 0 repeat;}
+
+/*City1 start*/
+.menu8{position:absolute; width:100%; height:222px; left:0; top:20px;}
+.menu8 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menu8 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menu8 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menu8 h2 div span{ display:block;}
+.menu8 h2 div a{color:#fff;}
+.menu8 ul{ overflow:hidden; margin-left:-33px;}
+.menu8 ul li{ float:left; width:460px; height:242px; padding:15px 15px 0; margin-left:20px; color:#fff;}
+.menu8 ul li span{float:right; width:81px; height:110px; padding:15px 0 0 20px;overflow:hidden; text-align:right;}
+.menu8 ul li span.m_img{ padding-top:40px;}
+.menu8 ul li em{display:block;padding-left:30px;padding-bottom:18px;clear:left;overflow:hidden;text-align:justify;font-size:14px;font-family:"Microsoft Yahei";}
+.menu8 ul li em a{color:#004ea1;}
+.menu8 ul li em p{color:#000;overflow:hidden;clear:left;line-height:28px;font-size:16px;font-family:"Microsoft Yahei";text-align:justify; text-justify:inter-ideograph;}
+.menu8 ul li p{color:#000;overflow:hidden;clear:left;line-height:28px;font-size:16px;font-family:"Microsoft Yahei";text-align:justify; text-justify:inter-ideograph;}
+.menu8 ul li p.first{ padding-bottom:8px;}
+.menu8 ul li p img{ padding-left:40px; }
+.menu8 ul li p a{color:#ccc;}
+/*City1 end*/ 
+
+/*City2 start*/
+.menu9{position:absolute; width:100%; height:342px; left:0; top:500px; margin-left:20px;}
+.menu9 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px; }
+.menu9 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menu9 h2 div{ margin-left:60px; font-size:14px; overflow:hidden; height:35px; font-weight:normal;}
+.menu9 h2 div span{ display:block;}
+.menu9 h2 div a{color:#fff;}
+.menu9 ul{ overflow:hidden; margin-left:-33px;font-size:12px;font-family:"Microsoft Yahei";}
+.menu9 ul li{ float:left; width:445px; height:262px; padding:15px 15px 0; margin-left:20px; color:#fff; overflow:hidden; border:3px solid #1dbed3; background-color:#fff;}
+.menu9 ul li span{float:right; width:81px; height:150px; padding:15px 0 0 0px; overflow:hidden; text-align:right;}
+.menu9 ul li span.m_img{ padding-top:40px;}
+.menu9 ul li em{display:block;padding-left:25px;padding-bottom:12px;font-size:18px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;}
+.menu9 ul li em a{color:#666;}
+.menu9 ul li p{color:#666;overflow:hidden;clear:left;line-height:25px;text-align:justify;padding-left:30px;}
+.menu9 ul li p.first{ padding-bottom:8px;}
+.menu9 ul li p img{ padding-left:40px; }
+.menu9 ul li p a{color:#666;}
+.menu9 ul li p a:link {color:#666;}		
+.menu9 ul li p a:visited {color:#666;}	
+.menu9 ul li p a:hover {color:#004ea1;}
+
+/*City2 end*/
+
+/*City3 start*/
+.menu10{position:absolute; width:100%; height:232px; left:0; top:820px; margin-left:20px; }
+.menu10 h2{ background:url("../images/bg/mark.png")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bg/mark.png*/ 0 0 repeat; height:35px; line-height:35px; padding:0 20px;color:#fff; margin-bottom:20px;}
+.menu10 h2 em{ float:left;font-size:14px;font-family:"Microsoft Yahei"; }
+.menu10 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menu10 h2 div span{ display:block;}
+.menu10 h2 div a{color:#fff;}
+.menu10 ul{ overflow:hidden; margin-left:-33px;}
+.menu10 ul li{ float:left; width:450px; height:247px; padding:15px 15px 0; margin-left:20px; color:#fff;overflow:hidden;}
+.menu10 ul li span{float:right; width:330px; height:247px; padding:15px 0 0 0px;overflow:hidden; text-align:right;}
+.menu10 ul li span.m_img{ padding-top:0px;}
+.menu10 ul li em{display:block;padding-left:25px;padding-bottom:18px;font-size:15px;font-family:"Microsoft Yahei";clear:left;overflow:hidden;color:#333;}
+.menu10 ul li em a{font-size:18px;font-family:"Microsoft Yahei";color:#3895ce; }
+.menu10 ul li p{color:#666;overflow:hidden;clear:left;line-height:22px;text-align:justify;padding-left:30px;font-size:12px;font-family:"Microsoft Yahei";}
+.menu10 ul li p.first{ padding-bottom:8px;}
+.menu10 ul li p img{ padding-left:0px; }
+.menu10 ul li p a{color:#666;}
+.menu10 ul li p a:link {color:#666;}		
+.menu10 ul li p a:visited {color:#666;}	
+.menu10 ul li p a:hover {color:#33cc99;}
+/*City3 end*/
+
+
+/*City4 start*/
+.menu11{position:absolute; width:100%; height:100px; left:0; top:1130px; margin-left:20px; }
+.menu11 h2 div{ margin-left:60px; font-size:12px; overflow:hidden; height:35px; font-weight:normal;}
+.menu11 h2 div span{ display:block;}
+.menu11 h2 div a{color:#fff;}
+.menu11 ul{ overflow:hidden; margin-left:-33px;}
+.menu11 ul li{background-color: #1dbed3; float:left; width:952px; height:60px; padding:12px 15px 0; margin-left:20px;overflow:hidden;}
+.menu11 ul li span{height:50px; padding:10px 0 0 10px;overflow:hidden; text-align:right;}
+.menu11 ul li span.m_img{float:left; padding-top:8px;width:180px; }
+.menu11 ul li span.m_img2{float:left; padding-top:0px;width:100px; }
+.menu11 ul li em{float:left;padding-left:25px;padding-top:8px;font-size:24px;font-family:"Microsoft Yahei";}
+.menu11 ul li em a{color:#fff; }
+
+/*City4 end*/

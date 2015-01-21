@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****  中间图片滑动效果 START ****/
+
+#middle_wrap {
+	 
+	height:340px;
+	margin:0 auto;
+	z-index:0;
+	position:relative;
+}
+
+#bannerUl {
+	position:absolute;
+	z-index:200;
+	right:26px;
+	bottom: 23px;
+	height:10px;
+	width:140px;
+}
+#bannerUl ul {
+	list-style:none;
+	display:block;
+}
+#bannerUl li {
+	list-style:none;
+	display:block;
+	float:left;
+	width:10px;
+	height:10px;
+	margin-left:13px;
+	cursor:pointer;
+}
+/******** 中间图片滑动效果 END **********/
+
+#middle_bottom {
+	clear:both;
+	height:35px;
+	width:100%;
+	min-width:980px;
+	padding:1px 0 0 0;
+	margin:0;
+	background:url("images/middle_bottom_bg.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/middle_bottom_bg.jpg*/ 0 0 repeat-x;
+}
+.middle_bottommain {
+	width:980px;
+	margin:0 auto;
+	padding:0px;
+}
+.xinwen {
+	float:left;
+	width:600px;
+	height:34px;
+	overflow:hidden;
+}
+.biaoti {
+	display:block;
+	float:left;
+	color:#004ea2;
+	font-family:"微软雅黑", "宋体";
+	font-size:14px;
+	line-height:34px;
+	font-weight:bold;
+	margin:0 0 0 20px;
+}
+.xinwen ul {
+	float:left;
+	display:block;
+	padding:0;
+	margin:1px 0 0 5px;
+}
+.xinwen ul li a {
+	font-size:12px;
+	line-height:33px;
+	color:#333333;
+}
+#bankuai {
+	clear:both;
+	padding:24px 0 0 0;
+	width:980px;
+	margin:0 auto;
+	height:170px;
+}
+.boxl {
+	width:300px;
+	height:140px;
+	display:block;
+	float:left;
+	padding:0 0 0 10px;
+	margin:0 20px 0 0;
+	border-bottom:none;
+	border-right:1px solid #d3d4d5;
+	border-top:1px solid #d3d4d5;
+	border-left:1px solid #d3d4d5;
+	background:url("images/bankuaibj.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bankuaibj.jpg*/ bottom left repeat-x;
+}
+.boxr {
+	width:310px;
+	height:140px;
+	display:block;
+	float:left;
+	padding:0;
+	margin:0;
+	border-bottom:none;
+	border-right:1px solid #d3d4d5;
+	border-top:1px solid #d3d4d5;
+	border-left:1px solid #d3d4d5;
+	position:relative;
+	background:url("images/bankuaibj.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bankuaibj.jpg*/ bottom left repeat-x;
+}
+.timu {
+	margin:11px 0 0 0;
+	height:28px;
+	width:180px;
+	padding:0;
+}
+.timuright {
+	margin:11px 0 0 10px;
+	height:28px;
+	padding:0;
+}
+.wenzi {
+	margin:0px;
+	display:block;
+	float:left;
+	width:145px;
+	height:80px;
+	overflow:hidden;
+	line-height:18px;
+	font-size:12px;
+	/*padding:3px */
+	overflow:hidden;
+}
+.more {
+	display:block;
+	float:left;
+	width:20px;
+	height:30px;
+	padding:50px 0 0 0;
+	margin:0 4px 0 0;
+}
+.more a {
+	border:0;
+}
+.tupian {
+	display:block;
+	padding:0;
+	margin:0 0 0 5px;
+	float:left;
+}
+.wenzizhong {
+	overflow:hidden;
+	width:250px;
+	font-size:12px;
+	line-height:18px;
+	overflow:hidden;
+font-family:;
+	height:80px;
+	display:block;
+	float:left;
+	padding:0px;
+	margin:0 10px 0 0;
+}
+.liebiaoleft {
+	width:170px;
+	display:block;
+margin:;
+	float:left;
+}
+.liebiaoleft p {
+	padding:3px 15px 0;
+}
+.liebiaoleft ul {
+	padding:6px 0 0 30px;
+}
+.liebiaoleft ul li {
+	list-style-type:disc;
+	padding:0;
+	margin:0;
+	color:#3885c5;
+}
+.liebiaoleft ul li a {
+	color:#3885c5;
+	line-height:18px;
+	font-family:"宋体";
+	line-height:18px;
+}
+.liebiaoleft ul li a:hover {
+	color:#333;
+}
+
+.kanwu {
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#bottom {
+	position:relative;
+	width:100%;
+	min-width:980px;
+	background:url("images/bottom_bg_13.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/bottom_bg_13.jpg*/ 0 0 repeat-x;
+	height:215px;
+	padding:0;
+	z-index:0;
+}
+.bottom_main {
+	width:980px;
+	 
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	padding:0px;
+}
+.jieshao {
+	width:140px;
+	padding:7px 0 0 10px;
+	display:block;
+	float:left;
+	/* height:213px; */
+	margin:0 30px 0 0;
+}
+.jieshao h1 a {
+	color:#FFF;
+	font: 14px/30px "微软雅黑";
+}
+.jieshao ul {
+	margin:0 0 0 15px;
+}
+.jieshao ul li {
+	list-style-type:disc;
+	font-size:12px;
+	line-height:20px;
+	color:#cccccc;
+}
+.jieshao ul li a {
+	font-size:12px;
+	line-height:20px;
+	color:#cccccc;
+}
+.jieshao ul li a:hover {
+
+	color:#fff;
+}
+

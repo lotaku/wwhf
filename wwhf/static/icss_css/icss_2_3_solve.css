@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.icss_font_05 {
+	width:90%;
+	float:left;
+	padding-bottom:10px;
+	font-size:14px;
+	color:#004ea2;
+	font-weight:bold;
+}
+.icss_2_3_R1text {
+	width:100%;
+	float:left;
+	padding-bottom:5px;
+	padding-left:0px;
+	margin-left:0px;
+	background-image: url("../images/icss_2_0_PSG/dian.gif")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icss_2_0_PSG/dian.gif*/;
+	background-repeat: no-repeat;
+	background-position: left 6px;
+	/* line-height:21px; */
+	font-family:Calibri, Arial, '宋体';
+}
+
+.icss_2_3_R1text_1 {
+	width:100%;
+	float:left;
+	padding-bottom:5px;
+	padding-left:0px;
+	margin-left:0px;
+	font-weight:bold;
+	background-repeat: no-repeat;
+	background-position: left 6px;
+	 line-height:21px; 
+	font-family:Calibri, Arial, '宋体';
+}
+
+.icss_2_3_R1text3 {
+	font-family:Calibri, Arial, '宋体';
+	font-weight:bold;
+}
+
+.icss_2_3_R1text1 {
+	width:100%;
+	float:left;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:21px;
+	 
+	padding:6px 0 6px 0px;
+}
+.icss_2_3_R1right_text {
+	width:95%;
+	float:left;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:18px;
+	font-size:12px;
+	padding:6px 0 6px 10px;
+	color:#898989;
+	background-image: url("../images/icss_2_0_PSG/dian.gif")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icss_2_0_PSG/dian.gif*/;
+	background-repeat: no-repeat;
+	background-position: left 15px;
+	line-height:21px;
+	border-bottom:1px solid #eeeeee;
+	font-family:Calibri, Arial, '宋体';
+}
+.icss_2_3_R1right_text1 {
+	width:95%;
+	float:left;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:18px;
+	font-size:12px;
+	padding:6px 0 6px 10px;
+	color:#898989;
+	background-image: url("../images/icss_2_0_PSG/dian.gif")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/images/icss_2_0_PSG/dian.gif*/;
+	background-repeat: no-repeat;
+	background-position: left 15px;
+	line-height:21px;
+}

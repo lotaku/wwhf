@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
@@ -27,6 +27,10 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TEMPLATE_DIRS = (
+    os.path.join(PROJECT_ROOT, 'templates'),
+)
+
 
 # Application definition
 
@@ -39,6 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'wwhf.content',
     'wwhf.core',
+	'ckeditor',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -84,3 +89,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = (
+	os.path.join(PROJECT_ROOT, 'static'),
+    # os.path.join(BASE_DIR, "static"),
+    # os.path.join(PROJECT_ROOT, "static"),
+    # '/var/www/static/',
+)
+CKEDITOR_UPLOAD_PATH = "ckeditor_uploads/"
+CKEDITOR_JQUERY_URL = 'http://code.jquery.com/jquery-1.7.2.min.js'
+print STATICFILES_DIRS

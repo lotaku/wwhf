@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top_banner {
+	width: 100%;
+	overflow: hidden;}
+.top_banner img {
+	position: relative;
+	left: -250px;}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	zoom:1;
+}
+#wrap .icss_text_liebiao_S1home1 a.pageCur {
+	font-weight: bold !important;
+	color: #333 !important;}
+.cooperation {
+	float: left;
+	margin: 20px 0;}
+.co_title {
+	font-size: 16px;
+	color: #004ea1;
+	font-weight: bold;
+	background: url("../images/title_bg.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/emerging-services/images/title_bg.jpg*/ 0 center repeat-x;}
+.co_title b {
+	background: #FFF url("../images/orange_tip.jpg")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/emerging-services/images/orange_tip.jpg*/ no-repeat;
+	padding: 5px 10px 0 20px;}
+.co_list {
+	text-align: center;
+	margin: 10px 0 0 0;}
+.co_list li {
+	display: inline-block;
+	*display: inlne;
+	zoom: 1;
+	width: 160px;
+	margin: 0 0 15px 0;
+	text-align: center;}
+.co_list a {
+	color: #6c6c6c;}
+.co_list a:hover {
+	text-decoration: underline;}
+.co_list img {
+	padding-bottom: 3px;}
+.icss_text_span img {
+	max-width: 497px;
+	width: expression(this.width > 497 ? "497" : true);}
+#service2,#service3,#service4,#service5,#service6,#service7,#service8,#service9,#service10,#service11,#service12 {
+	display: none;}
+.WordSection1 h3 {
+	font-size: 14px;}
+.WordSection1 h4 {
+	font-size: 12px;}
+.WordSection1 h5 {
+	font-weight: normal !important;
+	font-size: 12px;}
+.WordSection1 {
+	line-height: 21px !important;}
+.ul_txt li,
+.dot_txt {
+	background: url("../images/dian.gif")/*tpa=http://www.chinasofti.com/superWebCMS/pages/sites/MainSite/html/zh/emerging-services/images/dian.gif*/ no-repeat left 11px;
+	padding-left: 8px;}
